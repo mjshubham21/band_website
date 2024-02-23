@@ -1,0 +1,27 @@
+.Navigation {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+  }
+  .list
+  {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none; 
+  }
+  .nav
+  {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+    margin: 2px;
+    text-decoration: none;
+  }

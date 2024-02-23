@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+import Navigation from './Navigation';
+import Header from './Header';
 import './App.css';
 
 function App() {
+  const data = [
+    {home:"Home", band:'Band', tour:"Tour", contact : 'Contact'}
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation value={data[0].home} valueone={data[0].band} valuetwo={data[0].tour} valuethree={data[0].contact}/>
+      <Header/>
     </div>
   );
-}
-
+};
 export default App;
