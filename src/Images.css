@@ -1,0 +1,23 @@
+/* .img
+{ */
+    /* background-image: url(../images/img2.jpg); */
+    /* background-image: url(../images/img2.jpg); */
+    /* background-image: url(../images/img2.jpg); */
+    /* padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #000000;
+    background-repeat: no-repeat;
+    justify-content: space-between; */
+/* } */
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 10rem;
+}

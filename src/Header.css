@@ -1,6 +1,7 @@
 .header
 {
-  background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
+  /* background-image: url("https://www.w3schools.com/w3images/chicago.jpg"); */
+  background-image: url(../images/img1.jpg);
   height: 500px;
   width: 100%;
 
