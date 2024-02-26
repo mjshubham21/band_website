@@ -1,0 +1,39 @@
+*,*::after,*::before{
+  transition: all 0.25s linear;
+}
+.Navigation {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-decoration: none;
+  }
+  .list
+  {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none; 
+    /* padding: 1rem; */
+  }
+  .list:hover
+  {
+    background-color: gray;
+    padding: 1rem;
+  }
+
+  .navbar{
+    background-color: black;
+  }
+  .nav
+  {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+    width: 25rem;
+    text-decoration: none;
+  }

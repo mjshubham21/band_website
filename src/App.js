@@ -1,10 +1,10 @@
-import Navigation from './Navigation';
-import Header from './Header';
-import  Band from './Band';
-import Images from './Images';
+import React from 'react';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
+import Band from './components/Band';
+import Images from './components/Images';
+import Tour from './components/Tour';
 import './App.css';
-import Tour from './Tour';
-
 
 function App() {
   const data = [
